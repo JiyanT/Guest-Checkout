@@ -1,0 +1,27 @@
+{
+  "name": "@saucelabs/playwright-reporter",
+  "version": "1.0.0",
+  "description": "Reports your tests to Sauce Labs",
+  "main": "lib/reporter.js",
+  "files": [
+    "lib"
+  ],
+ 
+  "scripts": {
+    "test": "npx playwright test",
+    "test.sauce.us": "saucectl run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "allure-playwright": "^2.15.1"
+  },
+  "dependencies": {
+    "@saucelabs/sauce-json-reporter": "3.0.3",
+    "@saucelabs/testcomposer": "^1.2.1",
+    "exceljs": "^4.4.0",
+    "playwright": "^1.41.0"
+  }
+}
